@@ -1,0 +1,42 @@
+:root {
+     --bg-black: #000000;
+     --bg-dark: #212121;
+     --bg-charcoal: #333333;
+     --bg-light: #F5F5F5;
+     --bg-white: #FFFFFF;
+     --accent-orange: #FF8B38;
+     --accent-orange-hover: #FF9B51;
+     --text-dark: #212121;
+     --text-muted: #86878B;
+     --text-light: #CCCCCC;
+     --border-gray: #D6D6D6;
+     --font-heading: 'Raleway', sans-serif;
+     --font-body: 'Open Sans', sans-serif;
+     --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-muted);
+    background-color: var(--bg-white);
+    line-height: 1.65;
+    font-size: 14px;
+    overflow-x:hidden;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
